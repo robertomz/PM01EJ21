@@ -10,6 +10,8 @@ import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -64,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
             VideoView videoView = findViewById(R.id.videoView);
             videoView.setVideoURI(data.getData());
             videoView.start();
+
         } else {
             Toast.makeText(this, "Video NO Grabado/Guardado", Toast.LENGTH_SHORT).show();
         }
