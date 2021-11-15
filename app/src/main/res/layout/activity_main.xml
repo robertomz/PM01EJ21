@@ -8,7 +8,6 @@
     android:layout_gravity="center"
     tools:context=".MainActivity">
 
-
     <VideoView
         android:id="@+id/videoView"
         android:layout_width="match_parent"
@@ -23,10 +22,10 @@
         android:layout_gravity="center"/>
 
     <Button
-        android:id="@+id/btnGuardar"
+        android:id="@+id/btnGuardados"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Guardar"
+        android:text="Guardados"
         android:layout_gravity="center"/>
 
 </LinearLayout>
